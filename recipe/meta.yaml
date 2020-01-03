@@ -10,7 +10,6 @@ source:
   folder: src/protobuf
 
 build:
-  skip: true
   number: 1
 
 requirements:
