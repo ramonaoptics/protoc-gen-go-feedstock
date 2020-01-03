@@ -1,3 +1,3 @@
-export GOPATH=$PREFIX
-make
+set -x
+cd src/protobuf
 make install
