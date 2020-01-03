@@ -1,3 +1,5 @@
-set GOPATH=%LIBRARY_PREFIX%
-make
+@echo ON
+setlocal enabledelayedexpansion
+
+cd src\protobuf
 make install
